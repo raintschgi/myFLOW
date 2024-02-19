@@ -1,0 +1,47 @@
+
+
+.b-example-divider {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 100vh;
+  background-color: rgba(35, 74, 146, 0.162);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.sidebar {
+  background-color: #dfdfdf62; 
+  height: 95vh;
+  padding-top: 20px;
+}
+
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+}
+.sidebar .nav-link.disabled {
+  color: #000000; /* White color for active link */
+}
+
+.sidebar .nav-link:hover {
+  background-color: #dfdfdf; /* Gray background color on hover */
+  
+}
+
+.sidebar .sub-menu {
+  padding-left: 20px;
+}
+
+.sidebar .nav-link i {
+  margin-right: 10px; /* Adjust the margin between icon and text */
+}
+
+/* Remove bulletpoints */
+.sidebar ul {
+  list-style: none;
+}
+
+/* Change icon color */
+.sidebar .nav-link i.bi {
+  color: #bf0e0e; /* Change icon color to orange */
+}
